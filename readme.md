@@ -155,7 +155,7 @@ python s13_search_harness.py
 
 ```sh
 export SEARCH_DEBUG=1
-python agents/s13_search_harness.py
+python s13_search_harness.py
 ```
 
 ## 这一章的核心心智
