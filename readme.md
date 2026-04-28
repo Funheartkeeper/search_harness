@@ -133,8 +133,7 @@ state.remember_search(query_plan, results)
 默认离线 fake 搜索：
 
 ```sh
-cd learn-claude-code
-python agents/s13_search_harness.py
+python s13_search_harness.py
 ```
 
 可以试这些 prompt：
@@ -149,7 +148,7 @@ python agents/s13_search_harness.py
 ```sh
 export SEARCH_PROVIDER=tavily
 export TAVILY_API_KEY=your_api_key
-python agents/s13_search_harness.py
+python s13_search_harness.py
 ```
 
 如果要查看 intent 和 query plan：
